@@ -28,16 +28,24 @@ var app = new Vue({
   // }
 
   //<!-- =========== event on some keyboard =========== -->
-  data:{
-    result:''
+  // data:{
+  //   result:''
+  // },
+  // methods:{
+  //   enter: function(){ this.result = 'Enter button' },
+  //   esc: function(){ this.result = 'Escape button' },
+  //   space: function(){ this.result = 'Space button'},
+  //   up: function(){ this.result = 'Up button' },
+  //   down: function(){ this.result = 'Down button' },
+  //   right: function(){ this.result = 'Right button' },
+  //   left: function(){ this.result = 'Left button' }
+  // }
+
+  // <!-- =========== mouse left click =========== -->
+  data: {
+    result: ''
   },
   methods:{
-    enter: function(){ this.result = 'Enter button' },
-    esc: function(){ this.result = 'Escape button' },
-    space: function(){ this.result = 'Space button'},
-    up: function(){ this.result = 'Up button' },
-    down: function(){ this.result = 'Down button' },
-    right: function(){ this.result = 'Right button' },
-    left: function(){ this.result = 'Left button' }
+    left: function(){ this.result = 'Left click'}
   }
 })
