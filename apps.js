@@ -14,9 +14,16 @@ var app = new Vue({
   // }
 
   // <!-- =========== Mouse Onclick with Methods Parameter =========== -->
-  methods: {
-    message: function(content) {
-       alert(content)
+  // methods: {
+  //   message: function(content) {
+  //      alert(content)
+  //   }
+  // }
+
+  // <!-- =========== Event on Enter =========== -->
+  methods:{
+    message: function(){
+      alert('You click enter button');
     }
   }
 })

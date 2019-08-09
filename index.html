@@ -15,7 +15,11 @@
       <!-- <button type="button" name="button" @click="message">Click for see message</button> -->
 
       <!-- =========== Mouse Onclick with Methods =========== -->
-      <button type="button" name="button" @click="message('Learning to use event click')">Click for see message</button>
+      <!-- <button type="button" name="button" @click="message('Learning to use event click')">Click for see message</button> -->
+
+      <!-- =========== event on Enter =========== -->
+      <input type="text" @keyup.enter='message'>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="apps.js"></script>
