@@ -7,9 +7,16 @@ var app = new Vue({
   // }
 
   // <!-- =========== Mouse Onclick with Methods =========== -->
+  // methods: {
+  //   message: function() {
+  //      alert('Learning to use event click')
+  //   }
+  // }
+
+  // <!-- =========== Mouse Onclick with Methods Parameter =========== -->
   methods: {
-    message: function() {
-       alert('Learning to use event click')
+    message: function(content) {
+       alert(content)
     }
   }
 })
