@@ -50,7 +50,12 @@ var app = new Vue({
   // }
 
   // <!-- =========== Toggle =========== -->
+  // data:{
+  //   show:false
+  // }
+
+  // <!-- =========== Toggle 2 =========== -->
   data:{
-    show:false
+    isEditing:true
   }
 })

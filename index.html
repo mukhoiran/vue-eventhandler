@@ -36,8 +36,11 @@
       {{result}} -->
 
       <!-- =========== Toggle =========== -->
-      <button @click='show=!show'>Toggle</button>
-      <b v-show='show'> Text to show </b>
+      <!-- <button @click='show=!show'>Toggle</button>
+      <b v-show='show'> Text to show </b> -->
+
+      <!-- =========== Toggle 2 =========== -->
+      <button :key="isEditing" @click='isEditing=!isEditing'>{{isEditing? 'save' : 'edit'}}</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script src="apps.js"></script>
