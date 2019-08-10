@@ -42,10 +42,15 @@ var app = new Vue({
   // }
 
   // <!-- =========== mouse left click =========== -->
-  data: {
-    result: ''
-  },
-  methods:{
-    left: function(){ this.result = 'Left click'}
+  // data: {
+  //   result: ''
+  // },
+  // methods:{
+  //   left: function(){ this.result = 'Left click'}
+  // }
+
+  // <!-- =========== Toggle =========== -->
+  data:{
+    show:false
   }
 })
